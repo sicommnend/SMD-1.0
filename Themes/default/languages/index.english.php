@@ -66,7 +66,7 @@ $txt['guest_title'] = 'Guest';
 $txt['author'] = 'Author';
 $txt['on'] = 'on';
 $txt['remove'] = 'Remove';
-$txt['start_new_topic'] = 'Start new topic';
+$txt['start_new_topic'] = 'Upload new item';
 
 $txt['login'] = 'Login';
 // Use numeric entities in the below string.
@@ -76,9 +76,9 @@ $txt['password'] = 'Password';
 $txt['username_no_exist'] = 'That username does not exist.';
 $txt['no_user_with_email'] = 'There are no usernames associated with that email.';
 
-$txt['board_moderator'] = 'Board Moderator';
-$txt['remove_topic'] = 'Remove Topic';
-$txt['topics'] = 'Topics';
+$txt['board_moderator'] = 'Album Moderator';
+$txt['remove_topic'] = 'Remove Item';
+$txt['topics'] = 'Items';
 $txt['modify_msg'] = 'Modify message';
 $txt['name'] = 'Name';
 $txt['email'] = 'Email';
@@ -115,7 +115,7 @@ $txt['page'] = 'Page';
 $txt['prev'] = 'previous page';
 $txt['next'] = 'next page';
 
-$txt['lock_unlock'] = 'Lock/Unlock Topic';
+$txt['lock_unlock'] = 'Lock/Unlock Item';
 $txt['post'] = 'Post';
 $txt['error_occured'] = 'An Error Has Occurred';
 $txt['at'] = 'at';
@@ -130,27 +130,27 @@ $txt['last_poster'] = 'Last post by';
 $txt['last_post_message'] = '<strong>Last post: </strong>%3$s <span class="postby">%2$s by %1$s</span>';
 $txt['last_post_topic'] = '%1$s<br>by %2$s';
 $txt['post_by_member'] = '<strong>%1$s</strong> by <strong>%2$s</strong><br>';
-$txt['boardindex_total_posts'] = '%1$s Posts in %2$s Topics by %3$s Members';
+$txt['boardindex_total_posts'] = '%1$s Comments in %2$s Items by %3$s Members';
 $txt['show'] = 'Show';
 $txt['hide'] = 'Hide';
 
 $txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
-$txt['topic'] = 'Topic';
+$txt['topic'] = 'Item';
 $txt['help'] = 'Help';
 $txt['terms_and_rules'] = 'Terms and Rules';
 $txt['watch_board'] = 'Watch this Board';
 $txt['unwatch_board'] = 'Stop Watching Board';
-$txt['watch_topic'] = 'Watch this Topic';
-$txt['unwatch_topic'] = 'Stop Watching Topic';
-$txt['watching_this_topic'] = 'You are watching this topic, and will receive notifications about it.';
+$txt['watch_topic'] = 'Watch this Item';
+$txt['unwatch_topic'] = 'Stop Watching Item';
+$txt['watching_this_topic'] = 'You are watching this item, and will receive notifications about it.';
 $txt['notify'] = 'Notify';
 $txt['unnotify'] = 'Unnotify';
-$txt['notify_request'] = 'Do you want a notification email if someone replies to this topic?';
+$txt['notify_request'] = 'Do you want a notification email if someone comments on this item?';
 // Use numeric entities in the below string.
 $txt['regards_team'] = "Regards,\nThe " . $context['forum_name'] . ' Team.';
 $txt['notify_replies'] = 'Notify of replies';
-$txt['move_topic'] = 'Move Topic';
+$txt['move_topic'] = 'Move Item';
 $txt['move_to'] = 'Move to';
 $txt['pages'] = 'Pages';
 $txt['users_active'] = 'Users active in past %1$d minutes';
@@ -166,7 +166,7 @@ $txt['issue_warning'] = 'Issue Warning';
 $txt['awaiting_approval'] = 'Awaiting Approval';
 $txt['attach_awaiting_approve'] = 'Attachments awaiting approval';
 $txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a moderator.';
-$txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
+$txt['there_are_unapproved_topics'] = 'There are %1$s items and %2$s comments awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
 $txt['send_message'] = 'Send message';
 
 $txt['msg_alert_no_messages'] = 'you don\'t have any message';
@@ -185,7 +185,7 @@ $txt['no_messages'] = 'No messages';
 $txt['online_users'] = 'Users Online';
 $txt['jump_to'] = 'Jump to';
 $txt['go'] = 'Go';
-$txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
+$txt['are_sure_remove_topic'] = 'Are you sure you want to remove this item?';
 $txt['yes'] = 'Yes';
 $txt['no'] = 'No';
 
@@ -196,13 +196,13 @@ $txt['search'] = 'Search';
 $txt['all'] = 'All';
 $txt['search_entireforum'] = 'Entire Forum';
 $txt['search_thisbrd'] = 'This board';
-$txt['search_thistopic'] = 'This topic';
+$txt['search_thistopic'] = 'This item';
 $txt['search_members'] = 'Members';
 
 $txt['back'] = 'Back';
 $txt['continue'] = 'Continue';
 $txt['password_reminder'] = 'Password reminder';
-$txt['topic_started'] = 'Topic started by';
+$txt['topic_started'] = 'Uploaded by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
 $txt['memberlist_searchable'] = 'Searchable list of all registered members.';
@@ -210,9 +210,9 @@ $txt['welcome_newest_member'] = 'Please welcome %1$s, our newest member.';
 $txt['admin_center'] = 'Administration Center';
 $txt['last_edit_by'] = '<span class="lastedit">Last Edit</span>: %1$s by %2$s';
 $txt['last_edit_reason'] = '<span class="lastedit">Reason</span>: %1$s';
-$txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
+$txt['notify_deactivate'] = 'Would you like to deactivate notification on this item?';
 
-$txt['recent_posts'] = 'Recent Posts';
+$txt['recent_posts'] = 'Recent Comments';
 
 $txt['location'] = 'Location';
 $txt['gender'] = 'Gender';
@@ -220,8 +220,8 @@ $txt['personal_text'] = 'Personal Text';
 $txt['date_registered'] = 'Date Registered';
 
 $txt['recent_view'] = 'View the most recent posts on the forum.';
-$txt['recent_updated'] = 'is the most recently updated topic';
-$txt['is_recent_updated'] = '%1$s is the most recently updated topic';
+$txt['recent_updated'] = 'is the most recently updated item';
+$txt['is_recent_updated'] = '%1$s is the most recently updated item';
 
 $txt['male'] = 'Male';
 $txt['female'] = 'Female';
@@ -269,7 +269,7 @@ $txt['icon_cry'] = 'Cry';
 $txt['moderator'] = 'Moderator';
 $txt['moderators'] = 'Moderators';
 
-$txt['mark_board_read'] = 'Mark Topics as Read for this Board';
+$txt['mark_board_read'] = 'Mark Items as Seen for this Album';
 $txt['views'] = 'Views';
 $txt['new'] = 'New';
 
@@ -287,7 +287,7 @@ $txt['from'] = 'From';
 $txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
-$txt['board_topics'] = 'Topics';
+$txt['board_topics'] = 'Items';
 $txt['members_title'] = 'Members';
 $txt['members_list'] = 'Members List';
 $txt['new_posts'] = 'New Posts';
@@ -296,7 +296,7 @@ $txt['redirect_board'] = 'Redirect Board';
 
 $txt['sendtopic_send'] = 'Send';
 $txt['report_sent'] = 'Your report has been sent successfully.';
-$txt['post_becomesUnapproved'] = 'Your message became unapproved because it was posted on an unapproved topic, once the topic gets approved your message will be approved too.';
+$txt['post_becomesUnapproved'] = 'Your message became unapproved because it was posted on an unapproved item, once the item gets approved your message will be approved too.';
 
 $txt['time_offset'] = 'Time Offset';
 $txt['or'] = 'or';
@@ -312,22 +312,22 @@ $txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.'
 
 $txt['mark_as_read'] = 'Mark ALL messages as read';
 
-$txt['locked_topic'] = 'Locked Topic';
-$txt['normal_topic'] = 'Normal Topic';
-$txt['participation_caption'] = 'Topic you have posted in';
-$txt['moved_topic'] = 'Moved Topic';
+$txt['locked_topic'] = 'Locked Item';
+$txt['normal_topic'] = 'Normal Item';
+$txt['participation_caption'] = 'Item you have commented in';
+$txt['moved_topic'] = 'Moved Item';
 
 $txt['go_caps'] = 'GO';
 
 $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
-$txt['topic_summary'] = 'Topic Summary';
+$txt['topic_summary'] = 'Item Summary';
 $txt['not_applicable'] = 'N/A';
 $txt['name_in_use'] = 'This name is already in use by another member.';
 
 $txt['total_members'] = 'Total Members';
-$txt['total_posts'] = 'Total Posts';
-$txt['total_topics'] = 'Total Topics';
+$txt['total_posts'] = 'Total Comments';
+$txt['total_topics'] = 'Total Items';
 
 $txt['mins_logged_in'] = 'Minutes to stay logged in';
 
@@ -415,10 +415,10 @@ $txt['forever'] = 'Forever';
 $txt['quick_login_dec'] = 'Login with username, password and session length';
 $txt['one_hour'] = '1 Hour';
 $txt['moved'] = 'MOVED';
-$txt['move_why'] = 'Please enter a brief description as to<br>why this topic is being moved.';
+$txt['move_why'] = 'Please enter a brief description as to<br>why this item is being moved.';
 $txt['board'] = 'Board';
 $txt['in'] = 'in';
-$txt['sticky_topic'] = 'Sticky Topic';
+$txt['sticky_topic'] = 'Sticky Item';
 
 $txt['delete'] = 'Delete';
 
@@ -441,32 +441,32 @@ $txt['edit'] = 'Edit';
 $txt['quick_edit'] = 'Quick Edit';
 $txt['post_options'] = 'More...';
 
-$txt['merge_to_topic_id'] = 'ID of target topic';
-$txt['split'] = 'Split Topic';
-$txt['merge'] = 'Merge Topics';
-$txt['target_id'] = 'Select target by topic ID';
+$txt['merge_to_topic_id'] = 'ID of target item';
+$txt['split'] = 'Split Item';
+$txt['merge'] = 'Merge Items';
+$txt['target_id'] = 'Select target by item ID';
 $txt['target_below'] = 'Select target from the list below';
-$txt['subject_new_topic'] = 'Subject For New Topic';
+$txt['subject_new_topic'] = 'Subject For New Upload';
 $txt['split_this_post'] = 'Only split this post.';
-$txt['split_after_and_this_post'] = 'Split topic after and including this post.';
+$txt['split_after_and_this_post'] = 'Split item after and including this post.';
 $txt['select_split_posts'] = 'Select posts to split.';
-$txt['new_topic'] = 'New Topic';
-$txt['split_successful'] = 'Topic successfully split into two topics.';
-$txt['origin_topic'] = 'Original Topic';
+$txt['new_topic'] = 'New Upload';
+$txt['split_successful'] = 'Item successfully split into two topics.';
+$txt['origin_topic'] = 'Original Item';
 $txt['please_select_split'] = 'Please select which posts you wish to split.';
-$txt['merge_successful'] = 'Topics successfully merged.';
-$txt['new_merged_topic'] = 'Newly Merged Topic';
-$txt['topic_to_merge'] = 'Topic to be merged';
-$txt['target_board'] = 'Target board';
-$txt['target_topic'] = 'Target topic';
+$txt['merge_successful'] = 'Items successfully merged.';
+$txt['new_merged_topic'] = 'Newly Merged Item';
+$txt['topic_to_merge'] = 'Item to be merged';
+$txt['target_board'] = 'Target album';
+$txt['target_topic'] = 'Target item';
 $txt['merge_confirm'] = 'Are you sure you want to merge';
 $txt['with'] = 'with';
-$txt['merge_desc'] = 'This function will merge the messages of two topics into one topic. The messages will be sorted according to the time of posting. Therefore the earliest posted message will be the first message of the merged topic.';
+$txt['merge_desc'] = 'This function will merge the messages of two items into one item. The messages will be sorted according to the time of posting. Therefore the earliest posted message will be the first message of the merged item.';
 
-$txt['set_sticky'] = 'Set topic sticky';
-$txt['set_nonsticky'] = 'Set topic non-sticky';
-$txt['set_lock'] = 'Lock topic';
-$txt['set_unlock'] = 'Unlock topic';
+$txt['set_sticky'] = 'Set item sticky';
+$txt['set_nonsticky'] = 'Set item non-sticky';
+$txt['set_lock'] = 'Lock item';
+$txt['set_unlock'] = 'Unlock item';
 
 $txt['search_advanced'] = 'Advanced search';
 
@@ -878,9 +878,9 @@ $txt['notify_topic_3_desc'] = 'You will receive both alerts and e-mails for this
 $txt['notify_board_1'] = 'No Alerts or Emails';
 $txt['notify_board_2'] = 'Receive Alerts';
 $txt['notify_board_3'] = 'Receive Emails and Alerts';
-$txt['notify_board_1_desc'] = 'You will not receive any emails or alerts for new topics';
-$txt['notify_board_2_desc'] = 'You will receive alerts for this board.';
-$txt['notify_board_3_desc'] = 'You will receive both alerts and e-mails for this board.';
+$txt['notify_board_1_desc'] = 'You will not receive any emails or alerts for new items';
+$txt['notify_board_2_desc'] = 'You will receive alerts for this album.';
+$txt['notify_board_3_desc'] = 'You will receive both alerts and e-mails for this album.';
 
 // Mobile Actions
 $txt['mobile_action'] = 'User actions';
